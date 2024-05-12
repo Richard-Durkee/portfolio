@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { roboto_mono } from "@/app/fonts";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import NavBar from "./navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${roboto_mono.className} antialiased`}>
+        <NavBar/>
+        {children}
+      </body>
     </html>
   );
 }
