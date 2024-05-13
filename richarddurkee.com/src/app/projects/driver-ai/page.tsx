@@ -25,7 +25,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIHome} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIWorkspaces} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAICodebases} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAICodebaseDocs} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIEarthSketches} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIKeyanSketches} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -85,7 +85,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAITrumanSketches} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -95,7 +95,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIRichardSketches} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIFirstWireframeNotes} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -114,7 +114,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIHifiStyleGuide} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -123,7 +123,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIFounderFeedback} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -132,7 +132,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIFinalWorkspaces} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -141,7 +141,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIFinalCodebases} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>
@@ -150,7 +150,7 @@ export default function Page() {
                             <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
-                        <div className='flex-shrink-0 max-w-[50%]'>
+                        <div className='flex-shrink-0 max-w-[50%] max-h-[500px] overflow-auto'>
                             <Image src={DriverAIFinalCodebaseDocs} alt='Original Homepage of Driver AI' />
                         </div>
                     </div>

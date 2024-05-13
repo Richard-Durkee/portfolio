@@ -41,7 +41,7 @@ export default function ProjectLinks() {
               href={link.href}
               className="flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 mx-5"
             >
-              <p className="">{link.name}</p>
+              <p className="">{"> " + link.name}</p>
               {/* <Image src={DriverAIHome}></Image> */}
               
               
