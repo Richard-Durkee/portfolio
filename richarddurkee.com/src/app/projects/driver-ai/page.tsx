@@ -21,7 +21,8 @@ export default function Page() {
                 <h1 className='text-2xl mb-4'>Driver AI</h1>
                 <div className='mb-4'>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -30,7 +31,8 @@ export default function Page() {
                     </div>
                     
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -39,7 +41,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -48,7 +51,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -57,7 +61,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -66,7 +71,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -75,7 +81,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -84,7 +91,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -93,7 +101,8 @@ export default function Page() {
                     </div>
 
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -101,7 +110,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -109,7 +119,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -117,7 +128,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -125,7 +137,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
@@ -133,7 +146,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='flex items-center space-x-8 bg-zinc-900 rounded-3xl p-9 mb-4'> 
-                        <div className='flex-grow'>
+                       <div className='flex-grow'>
+                            <h2 className='text-xl mb-4'> The Concept </h2>
                             <p className="text-gray-200">One challenge that we encountered...</p>
                         </div>
                         <div className='flex-shrink-0 max-w-[50%]'>
