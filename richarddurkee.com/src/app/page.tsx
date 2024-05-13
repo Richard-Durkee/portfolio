@@ -5,7 +5,7 @@ import SideNav from "./sidenav";
 export default function Home() {
   return (
     <main>
-      <NavBar/>
+      
     </main>
   );
 }

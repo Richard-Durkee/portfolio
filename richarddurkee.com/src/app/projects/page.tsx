@@ -1,3 +1,12 @@
+import ProjectLinks from "./projects-nav-links";
+import BasicTimeline from "../timeline";
+
 export default function Page() {
-    return <p>Projects Page</p>;
+    return (
+      <div>
+        <p>Projects</p>
+        <ProjectLinks></ProjectLinks>
+      </div>
+      
+    );
   }

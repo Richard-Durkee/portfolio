@@ -1,3 +1,11 @@
+import BasicTimeline from "../timeline";
+
 export default function Page() {
-    return <p>Design Page</p>;
+    return (
+      <div>
+        <p>Design Page</p>
+        <BasicTimeline></BasicTimeline>
+      </div>
+      
+    );
   }

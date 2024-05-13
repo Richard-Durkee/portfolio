@@ -23,12 +23,17 @@ const links = [
         name: 'Resume', 
         href: '/resume', 
         // icon: UserGroupIcon,
-      },
-    { 
-      name: 'Design', 
-      href: '/design', 
-      // icon: UserGroupIcon,
     },
+    { 
+        name: 'Projects', 
+        href: '/projects', 
+        // icon: UserGroupIcon,
+    },
+    // { 
+    //   name: 'Design', 
+    //   href: '/design', 
+    //   // icon: UserGroupIcon,
+    // },
 ];
  
 export default function NavLinks() {
@@ -44,7 +49,7 @@ export default function NavLinks() {
             className="flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 mx-5"
           >
             {/* <LinkIcon className="w-6" /> */}
-            <p className="hidden md:block">{link.name}</p>
+            <p>{link.name}</p>
           </Link>
         );
       })}
