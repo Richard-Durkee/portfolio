@@ -22,8 +22,8 @@ const links = [
       // icon: DocumentDuplicateIcon,
     },
     { 
-        name: 'BlogLog', 
-        href: 'projects/bloglog', 
+        name: 'BoardGameGeek Redesign', 
+        href: 'projects/boardgamegeek', 
         // icon: UserGroupIcon,
     },
 ];
