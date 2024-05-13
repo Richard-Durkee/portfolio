@@ -35,7 +35,7 @@ export default function ProjectLinks() {
       {links.map((link) => {
         // const LinkIcon = link.icon;
         return (
-          <div key={link.naem}>
+          <div key={link.name}>
             <Link
               key={link.name}
               href={link.href}
