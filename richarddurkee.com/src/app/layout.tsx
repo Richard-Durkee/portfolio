@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto_mono.className} antialiased`}>
         <NavBar/>
-        <div className="mx-auto max-w-screen-lg px-10">
+        <div className="mx-auto px-10">
          {children}
         </div>
       </body>
