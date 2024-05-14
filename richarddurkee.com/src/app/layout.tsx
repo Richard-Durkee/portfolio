@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { roboto_mono } from "@/app/fonts";
 import "./globals.css";
 import NavBar from "./navbar";
+import Link from "next/link"; 
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +20,13 @@ export default function RootLayout({
       <body className={`${roboto_mono.className} antialiased`}>
         <NavBar/>
         <div className="mx-auto px-10">
+        {/* <Link
+            key={"/"}
+            href={"/"}
+            className="flex h-[48px] w-[48px] grow justify-center gap-2 rounded-md p-3 text-md text-white font-medium hover:bg-sky-100 hover:text-blue-600 mb-4"
+          >
+            {"<"}
+          </Link> */}
          {children}
         </div>
       </body>
