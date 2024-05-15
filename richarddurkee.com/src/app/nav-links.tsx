@@ -46,7 +46,7 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className="flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 mx-5"
+            className="flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 sm:mx-3 md:mx-4 lg:mx-5"
           >
             {/* <LinkIcon className="w-6" /> */}
             <p>{link.name}</p>
