@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <main>
       <div>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
       <p className="mb-9">Hi, I’m Rick, a software engineer, graduating with a B.S in Computer Science in Brown University’s Class of 2024!</p>
       <p className="mb-4">Projects</p>
         <ProjectLinks></ProjectLinks>
