@@ -6,15 +6,15 @@
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Sketching",
         "image": "/images/driver-ai/Driver-AI-2-Workspaces.webp",
-        "text": "",
+        "text": "Once we had a clear understanding of the project scope and objectives, the next phase involved translating our ideas into tangible sketches. Each member of our team generated eight sketches, resulting in a total of 32 unique concepts. Among these, two end-to-end flows consisting of four screens each were selected for further refinement.",
         "alt": ""
     },
     {
         "heading": "The Concept",
         "image": "/images/driver-ai/Driver-AI-3-Codebases.webp",
-        "text": "",
+        "text": "Following the sketching phase, we convened to discuss our approach moving forward. One crucial observation we made was regarding the structure of DriverAI's main page layers: the Dashboard, Workspaces, and Codebases. We identified a significant barrier between the initial landing point and the core content, which prompted our primary focus on simplifying the user experience and reducing the number of clicks required to access essential information. To address this issue, we decided to implement two key features derived from our sketches: Removal of the Workspaces level and integration of its functionality within the top level of the website. Next, we incorporated a collapsible sidebar.",
         "alt": ""
     },
     {

@@ -20,7 +20,7 @@ export default function Page() {
     return (
         <div>
           <h1 className='text-2xl mb-4'> SpotHouse</h1>
-          <Content content={SpothouseContent}></Content>
+          <Content content={DriverAIContent}></Content>
         </div>
     );
   }

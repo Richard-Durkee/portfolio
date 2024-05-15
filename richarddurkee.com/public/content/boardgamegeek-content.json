@@ -1,6 +1,66 @@
 [
     {
         "heading": "The Concept",
+        "image": "/images/boardgamegeek/BoardGameGeek-Dashboard.png",
+        "text": "This is the dashboard to one of my favorite websites, Board Game Geek. Although BGG rolled out a fairly recent update to improve the UI, this website has had a longstanding  reputation for being poorly designed and difficult to navigate, despite dominating the board game space and having significant influence on the hobbyist board game market.",
+        "alt": ""
+    },
+    {
+        "heading": "Speed Sketches",
+        "image": "/images/boardgamegeek/BoardGameGeek-Speed-Sketches.jpeg",
+        "text": " I started by speed sketching 9 different designs for the website. I used a technique I learned in an UI/UX course, dividing a notebook page into 9 small sections, and spending no longer than one minute sketching in each section. I tried to think outside the box as much as possible -- when brainstorming, I believe quantity can come over quality, because if you are not willing to consider unorthodox solutions, you might miss the best solution.",
+        "alt": ""
+    },
+    {
+        "heading": "Low Fidelity Wireframes",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Lofi-Wireframe-1.jpg",
+        "text": "I hoped to create a new dashboard that would improve upon the design of the original first by making it more clear what the different sections of the website are. I wanted it to be more obvious that more threads and information in a given section could be accessed by using a large arrow indicating to users that the shown threads were only a small preview of the total content.",
+        "alt": ""
+    },
+    {
+        "heading": "The Hotness",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Lofi-Wireframe-2.jpg",
+        "text": "I also moved the Hotness, or section for the most trending board games, to the top of the page, in a hope to remove some visual clutter and give a larger preview of each game.",
+        "alt": ""
+    },
+    {
+        "heading": "Responsiveness",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Lofi-Wireframe-3.jpg",
+        "text": " In both my low fidelity and high fidelity Figma wireframes, I strove to design a dashboard that would be responsive to various screen sizes and window dimensions.",
+        "alt": ""
+    },
+    {
+        "heading": "High Fidelity Wireframes",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-1.jpg",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Concept",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-2.jpg",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Concept",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-3.jpg",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Concept",
+        "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Visual-Style-Design-Guide.jpg",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Concept",
+        "image": "/images/",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Concept",
         "image": "/images/spothouse/spothouse-logo.png",
         "text": "",
         "alt": ""
