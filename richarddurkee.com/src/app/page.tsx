@@ -6,6 +6,7 @@ import ProjectLinks from "./projects/projects-nav-links";
 export const metadata = {
   title: "Richard F. Durkee",
   description: "Software Engineer, Novice Audio Engineer",
+  icon: "/public/favicon.ico"
 }
 
 export default function Home() {
