@@ -2,31 +2,31 @@
     {
         "heading": "The Concept",
         "image": "/images/spothouse/spothouse-logo.png",
-        "text": "",
+        "text": "During Covid, my friends and I wanted to listen to Spotify together while we studied, but at the time, Spotify did not offer this feature. I created, along with three friends, an application called Spothouse that allowed for the creation of listening rooms, which could be joined and left freely for anyone who had the passcode for the room. After thinking about potential users, and looking forward to a world after quarantine, we wanted the application to double as a way for hosts of parties to accept song requests. After that, we turned to the fundamental question of DJ’ing: how can we play music that everyone wants to hear? We designed an upvote and downvote feature that would allow users to vote on the order that songs will be played, with a publicly viewable queue order.",
         "alt": ""
     },
     {
         "heading": "The Design",
         "image": "/images/spothouse/spothouse-guest.png",
-        "text": "",
+        "text": "This is the guest side of the application. As you can see, there is a list of every user in the room, with a separate username for the host. Then, there is a search bar that uses the Spotify API to return the top search results from their search algorithm. The current song playing displays at the top of the application, along with a progress bar and a large image of the album cover. The entire queue can be seen below this, along with artists and album covers, and a corresponding upvote and downvote button for each song. The queue updates in real time.",
         "alt": ""
     },
     {
         "heading": "Host Side",
         "image": "/images/spothouse/spothouse-host.png",
-        "text": "",
+        "text": "The host side of the application adds functionality to remove songs from the queue manually, and also gives the option of starting a remote or in-person party. The difference between the two is that for a remote party, all users must have a Spotify account, but everyone’s Spotify will update with the queue, allowing for listening in real time without being in the same room. The in-person option only required Spotify authentication for the host, and so guests could join freely, but could not link the queue to their own Spotify account (which might be desired in a party setting where more than one source of music in the same room would be disorienting or detract from the experience).",
         "alt": ""
     },
     {
         "heading": "VibeCheckr Algorithm",
         "image": "/images/spothouse/spothouse-sigmoid-equation.png",
-        "text": "",
+        "text": "After this, we considered the impact of malicious use of the software, and the potential for anti-social behavior to allow users to ruin the queue for everyone else. We also wanted to incentivize users to not only request the songs that they wanted to hear, but to add songs that they thought would match the vibe of the party. I designed an algorithm called the Vibecheckr, based loosely on ELO scores in chess. After considering and graphing out a number of different equations, I landed on a sigmoid function, which has the benefit of a lower and upper bound between 0 and 1. This avoids negative numbers, and also “runaway leader” situations where one user’s vote could be orders of magnitude larger than someone who just joined the party.",
         "alt": ""
     },
     {
         "heading": "The Effect",
         "image": "/images/spothouse/spothouse-sigmoid-graph.png",
-        "text": "",
+        "text": "Now, users were given a starting score of 0.5, and I wrote an API on the backend that would update every user’s score whenever a song request, upvote, or downvote was received by the server. A user’s raw score was increased by one every time a song they requested was upvoted, and likewise a point was subtracted per downvote they received. Everyone’s score was then passed into the Sigmoid function.  ",
         "alt": ""
     }
 ]
