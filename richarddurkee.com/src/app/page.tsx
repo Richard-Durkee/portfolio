@@ -3,6 +3,11 @@ import NavBar from "./navbar";
 import SideNav from "./sidenav";
 import ProjectLinks from "./projects/projects-nav-links";
 
+export const metadata = {
+  title: "Richard F. Durkee",
+  description: "Software Engineer, Novice Audio Engineer",
+}
+
 export default function Home() {
   return (
     <main>
