@@ -6,7 +6,9 @@
 import Link from 'next/link';
 import useState from 'react';
 import Image from 'next/image';
-import DriverAIHome from '/public/images/Driver-AI-1-Home.webp'
+import DriverAILogo from '/public/images/driver-ai/Driver-AI-Logo.jpeg';
+import SpothouseLogo from '/public/images/spothouse/spothouse-logo.png';
+import BGGLogo from '/public/images/boardgamegeek/BoardGameGeek-Logo.png';
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
@@ -14,17 +16,20 @@ const links = [
     { 
       name: 'Driver AI', 
       href: '/projects/driver-ai', 
-    // icon: HomeIcon 
+      image: DriverAILogo,
+      alt: "",
     },
     {
       name: 'SpotHouse',
       href: '/projects/spothouse',
-      // icon: DocumentDuplicateIcon,
+      image: SpothouseLogo,
+      alt: "",
     },
     { 
-        name: 'BoardGameGeek Redesign', 
-        href: 'projects/boardgamegeek', 
-        // icon: UserGroupIcon,
+      name: 'BoardGameGeek Redesign', 
+      href: 'projects/boardgamegeek', 
+      image: BGGLogo,
+      alt: "",
     },
 ];
  
@@ -39,11 +44,14 @@ export default function ProjectLinks() {
             <Link
               key={link.name}
               href={link.href}
-              className="flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 mx-5"
+              className="flex h-[150px] grow items-center gap-2 rounded-md p-3 text-sm text-white font-medium hover:bg-sky-100 hover:text-blue-600 mx-5"
             >
-              <p className="">{"> " + link.name}</p>
-              {/* <Image src={DriverAIHome}></Image> */}
-              
+              <div className='flex w-full h-full items-center overflow-hidden justify-between'>
+                <p className="">{"> " + link.name}</p>
+                <div className="">
+                  <Image src={link.image} alt={link.alt} className="w-[100px] h-[100px] rounded-3xl" />
+                </div>
+              </div>
               
             </Link>
           </div>
