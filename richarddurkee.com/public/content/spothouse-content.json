@@ -1,0 +1,32 @@
+[
+    {
+        "heading": "The Concept",
+        "image": "/images/spothouse/spothouse-logo.png",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Design",
+        "image": "/images/spothouse/spothouse-guest.png",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "Host Side",
+        "image": "/images/spothouse/spothouse-host.png",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "VibeCheckr Algorithm",
+        "image": "/images/spothouse/spothouse-sigmoid-equation.png",
+        "text": "",
+        "alt": ""
+    },
+    {
+        "heading": "The Effect",
+        "image": "/images/spothouse/spothouse-sigmoid-graph.png",
+        "text": "",
+        "alt": ""
+    }
+]
