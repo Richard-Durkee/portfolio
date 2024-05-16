@@ -12,68 +12,74 @@
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Removing Top Level Workspaces",
         "image": "/images/driver-ai/Driver-AI-3-Codebases.webp",
-        "text": "Following the sketching phase, we convened to discuss our approach moving forward. One crucial observation we made was regarding the structure of DriverAI's main page layers: the Dashboard, Workspaces, and Codebases. We identified a significant barrier between the initial landing point and the core content, which prompted our primary focus on simplifying the user experience and reducing the number of clicks required to access essential information. To address this issue, we decided to implement two key features derived from our sketches: Removal of the Workspaces level and integration of its functionality within the top level of the website. Next, we incorporated a collapsible sidebar.",
+        "text": "Following the sketching phase, we convened to discuss our approach moving forward. One crucial observation we made was regarding the structure of DriverAI's main page layers: the Dashboard, Workspaces, and Codebases. We identified a significant barrier between the initial landing point and the core content, which prompted our primary focus on simplifying the user experience and reducing the number of clicks required to access essential information. To address this issue, we decided to implement two key features derived from our sketches: Removal of the Workspaces level and integration of its functionality within the top level of the website.",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Collapsing Sidebar",
         "image": "/images/driver-ai/Driver-AI-4-Codebase-Docs.webp",
-        "text": "",
+        "text": "To give users a more comprehensive view of where they were in the application, we decided to implement a sidebar that could be used for navigation to search other technical documentation and to return to other codebases and workspaces if necessary.",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Feedback from Low Fidelity Wireframes",
         "image": "/images/driver-ai/Driver-AI-5-First-Wireframe-Discussion.webp",
         "text": "",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Style Guide",
         "image": "/images/driver-ai/Driver-AI-6-Hifi-Style-Guide.webp",
-        "text": "",
+        "text": "After completing our low fidelity wireframes, we moved on to creating our style guide, which used the Zinc Tailwind CSS color palette and used market standard styling that was cohesive with the rest of Driver AI's product. ",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Founder Feedback",
         "image": "/images/driver-ai/Driver-AI-7-Founder-Feedback.webp",
-        "text": "",
+        "text": "Finally, we created our high fidelity wireframes and presented them in a Loom, and then again on a Zoom call, with a founding engineer from Driver AI. We received a number of useful notes on our high-fidelity wireframes, as shown in the notes to the left. We went on to implement these, as described along with the following pictures.",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Workspaces",
         "image": "/images/driver-ai/Driver-AI-8-Final-Workspaces.webp",
-        "text": "",
+        "text": "The new Workspaces page featured a right-hand sidebar, giving users the ability to see codebases associated with the selected workspace. We also introduced iconography in the breadcrumbs at the top of the page, to show users what level of hierarchy they were currently on. Within each workspace was also workspace-level notes, which would appear in a horizontally-scrollable dropdown after selecting a workspace. ",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Codebases",
         "image": "/images/driver-ai/Driver-AI-9-Final-Codebases.webp",
-        "text": "",
+        "text": "We combined the resources section into the codebase level, so that all document uploading beyond technical codefiles could be stored all in one place. We also ",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Tech Docs",
+        "image": "/images/driver-ai/Driver-AI-Final-Codebase-Docs.webp",
+        "text": "At the Tech Docs level, we decided to introduce the ability to swap the right hand column and the center document, allowing for easy switching between viewing code and its associated documentation. We also added an editing toolbar on the right hand side of the documentation, to remind users that they had the ability to edit the document's styling outside of prompting the AI for documentation.",
+        "alt": ""
+    },
+    {
+        "heading": "Earth's Sketches",
         "image": "/images/driver-ai/Driver-AI-Earth-Sketches.webp",
         "text": "",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Keyan's Sketches",
         "image": "/images/driver-ai/Driver-AI-Keyan-Sketches.webp",
         "text": "",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Richard's Sketches",
         "image": "/images/driver-ai/Driver-AI-Richard-Sketches.webp",
         "text": "",
         "alt": ""
     },
     {
-        "heading": "The Concept",
-        "image": "/images/driver-ai/Driver-AI-Final-Codebase-Docs.webp",
+        "heading": "Truman's Sketches",
+        "image": "/images/driver-ai/Driver-AI-Truman-Sketches.webp",
         "text": "",
         "alt": ""
     }
