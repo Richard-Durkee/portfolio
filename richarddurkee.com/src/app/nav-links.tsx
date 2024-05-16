@@ -39,7 +39,7 @@ const links = [
 export default function NavLinks() {
   return (
     <>
-      <div className='flex flex-col sm:flex-row'> 
+      <div className='flex flex-col sm:flex-row mb-auto'> 
       {links.map((link) => {
         // const LinkIcon = link.icon;
         return (

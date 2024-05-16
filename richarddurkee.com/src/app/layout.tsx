@@ -18,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto_mono.className} antialiased`}>
-        <NavBar/>
-        <div className="mx-auto px-10">
+        <NavBar />
+        <div className="mx-auto px-10 mt-24 md:mt-1">
+          
         {/* <Link
             key={"/"}
             href={"/"}
