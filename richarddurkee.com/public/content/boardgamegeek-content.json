@@ -30,27 +30,27 @@
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Style Guide",
         "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Visual-Style-Design-Guide.jpg",
-        "text": "",
+        "text": "I then created a Style Guide to continue the color palette and other UI design choices that BGG's users had already learned, so that learned user behavior from the old site would still apply to the new design.",
         "alt": ""
     },
     {
         "heading": "High Fidelity Wireframes",
         "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-1.jpg",
-        "text": "",
+        "text": "These are the final result of the high fidelity wireframes that I created. I added a more clear depiction of where forum previwes would be, as can be seen from where the gray boxes are.",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "The Hotness: Updated",
         "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-2.jpg",
-        "text": "",
+        "text": "I moved the Hotness into its own separate section, after realizing that more user content could be associated with The Hotness, such as forum posts and comments that would otherwise end up elsewhere.",
         "alt": ""
     },
     {
-        "heading": "The Concept",
+        "heading": "Meeple Selection",
         "image": "/images/boardgamegeek/BoardGameGeek-Redesign-Hifi-Wireframe-3.jpg",
-        "text": "",
+        "text": "Finally, I added a meeple icon in the corner of every section, so that the meeple could be animated to move around to whichever section the user clicks on, and reinforcing the idea that these sections reprsented an affordance using language that board game players could understand.",
         "alt": ""
     }
 ]
