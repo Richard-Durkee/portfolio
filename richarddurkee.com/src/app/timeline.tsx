@@ -28,9 +28,11 @@ export default function BasicTimeline() {
         <TimelineContent>Fidelity</TimelineContent>
       </TimelineItem>
       <TimelineItem>
+        
         <TimelineSeparator>
           <TimelineDot />
         </TimelineSeparator>
+        
         <TimelineContent>Fidelity</TimelineContent>
       </TimelineItem>
     </Timeline>
