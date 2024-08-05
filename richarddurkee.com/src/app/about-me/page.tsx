@@ -1,5 +1,10 @@
 import Image from 'next/image';
 import HeadShot from '/public/images/about-me/headshot.jpg';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Me"
+};
 
 export default function Page() {
     return (

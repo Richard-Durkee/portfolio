@@ -1,5 +1,10 @@
 import Link from "next/link";
 import BasicTimeline from "../timeline";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Resume"
+};
 
 export default function Page() {
     return (

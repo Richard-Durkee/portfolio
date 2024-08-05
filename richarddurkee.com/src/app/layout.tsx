@@ -6,9 +6,13 @@ import NavBar from "./navbar";
 import Link from "next/link"; 
 
 export const metadata: Metadata = {
-  title: "Richard F. Durkee",
-  description: "Software Engineer"
-}
+  title: {
+    template: '%s | Richard F. Durkee',
+    default: 'Home',
+  },
+  description: 'Software Engineer',
+  metadataBase: new URL('https://richarddurkee.com'),
+};
 
 export default function RootLayout({
   children,
