@@ -2,11 +2,11 @@ import Image from "next/image";
 import NavBar from "./navbar";
 import SideNav from "./sidenav";
 import ProjectLinks from "./projects/projects-nav-links";
+import { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Richard F. Durkee",
-  description: "Software Engineer, Novice Audio Engineer",
-  icon: "/public/favicon.ico"
+  description: "Software Engineer"
 }
 
 export default function Home() {
