@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: {
     template: '%s | Richard F. Durkee',
-    default: 'Home',
+    default: 'Richard F. Durkee',
   },
   description: 'Software Engineer',
   metadataBase: new URL('https://richarddurkee.com'),
