@@ -19,11 +19,11 @@ const links = [
       href: '/about-me',
       // icon: DocumentDuplicateIcon,
     },
-    { 
-        name: 'Resume', 
-        href: '/resume', 
-        // icon: UserGroupIcon,
-    },
+    // { 
+    //     name: 'Resume', 
+    //     href: '/resume', 
+    //     // icon: UserGroupIcon,
+    // },
     { 
         name: 'Projects', 
         href: '/projects', 
